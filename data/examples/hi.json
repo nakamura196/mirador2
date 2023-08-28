@@ -1,0 +1,60 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "正保琉球国絵図写",
+    "license": "https://www.hi.u-tokyo.ac.jp/faq/reuse",
+    "logo": "https://www.hi.u-tokyo.ac.jp/icon.png",
+    "attribution": "東京大学史料編纂所",
+    "metadata": [],
+    "sequences": [
+        {
+            "@id": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 24221,
+                    "service": {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "physicalScale": 0.01465106024,
+                        "physicalUnits": "cm",
+                        "profile": "http://iiif.io/api/annex/services/physdim"
+                      },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/files/tile/0001/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 24221,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/files/tile/0001",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
+                                "width": 49894
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/files/tile/0001/full/780,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 378,
+                        "width": 780
+                    },
+                    "width": 49894
+                }
+            ],
+            "label": "Current Page Order"
+        }
+    ],
+    "viewingDirection": "right-to-left",
+    "within": "https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/"
+}

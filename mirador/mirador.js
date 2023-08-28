@@ -34354,7 +34354,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
     getSlotFromAddress: function(address) {
       var _this = this;
-      console.log(_this.slots)
       return _this.slots.filter(function(slot) {
         return slot.layoutAddress === address;
       })[0];
